@@ -1,4 +1,4 @@
-/Users/borgou/PycharmProjects/hamid/Crop_App.py
+
 Scikit-learn==1.2.2
 pandas==1.5.3
 numpy==1.22.3
