@@ -15,7 +15,6 @@ image_resized = image.resize((200, 300))
 
 def pred(feat):
     feat=pd.DataFrame(feat)
-    #clf = pickle.load(open('/Users/borgou/Documents/COURS/MASTERE 1/SEMESTRE 2/PROJET_INTERDISCIPLINAIRE/Projet_interdisciplinaire/RandomForest.pkl','rb'))
     clf = pickle.load(open('RandomForest.pkl','rb'))
 
     pred=clf.predict(feat)
