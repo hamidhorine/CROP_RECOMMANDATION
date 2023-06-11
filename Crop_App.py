@@ -5,7 +5,7 @@ from joblib import dump, load
 import pandas as pd
 from PIL import Image
 
-image = Image.open('Spring_Crop_PNG_Clipart.png')
+image = Image.open('img.png')
 image_resized = image.resize((200, 300))
 
 #st.image(image_resized, caption='Image redimensionnée')
